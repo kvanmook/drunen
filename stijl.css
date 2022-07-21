@@ -1,0 +1,126 @@
+/*CSS*/
+
+#content{
+margin-top: 100px;
+}
+[class*="col-"] {
+width: 100%;
+}
+
+body{
+background-color: #808080;
+}
+@media only screen and (min-width: 992px) {
+body{
+background-color: #C0C0C0;
+}
+}
+
+
+@media only screen and (min-width: 992px) {
+[class*="col-"] {
+float: left;
+}
+.col-1 {width: 9.09%;}
+.col-2 {width: 18.18%;}
+.col-3 {width: 27.27%;}
+.col-4 {width: 36.36%;}
+.col-5 {width: 45.45%;}
+.col-6 {width: 54.54%;}
+.col-7 {width: 63.63%;}
+.col-8 {width: 72.72%;}
+.col-9 {width: 81.81%;}
+.col-10 {width: 90.90%;}
+.col-11 {width: 100%;}
+}
+
+header{
+max-height: 500px;
+color: #FF0000;
+text-align: center;
+font-family: Verdana;
+padding: 5px 5px 5px 5px;
+background-color: #808080;
+}
+@media only screen and (min-width: 992px) {
+header{
+background-color: #C0C0C0;
+
+}
+}
+
+#een{
+min-height: 300px;
+color: #2F4F4F;
+font-family: Arial;
+font-size: 15px;
+padding: 5px 5px 5px 5px;
+background-color: #808080;
+}
+@media only screen and (min-width: 992px) {
+#een{
+background-color: #C0C0C0;
+}
+}
+
+#twee{
+min-height: 300px;
+color: #FFFFFF;
+font-family: Arial;
+font-size: 16px;
+padding: 5px 5px 5px 15px;
+background-color: #808080;
+}
+@media only screen and (min-width: 992px) {
+#twee{
+background-color: #2F4F4F;
+}
+}
+
+.column {
+float: left;
+padding: 5px 5px 5px 5px;
+}
+
+.links {
+width: 40%;
+}
+
+.rechts {
+width: 300px;
+background-color: #808080;
+}
+@media only screen and (min-width: 992px) {
+.rechts {
+background-color: #C0C0C0;
+}
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+footer{
+  max-height: 440px;
+  color: #FF0000;
+  text-align: center;
+  font-family: Verdana;
+  padding: 5px 5px 5px 5px;
+  background-color: #808080;
+  }
+@media only screen and (min-width: 992px) {
+footer{
+  background-color: #C0C0C0;
+  }
+  }
+
+  .copywright::before {
+     content: "Kevin van Mook - Mobiele pagina © 2022";
+  }
+  @media only screen and (min-width: 992px) {
+  .copywright::before {
+    content: "Kevin van Mook - Normale pagina © 2022";
+    }
+    }
